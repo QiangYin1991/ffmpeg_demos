@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Test_FFmpeg_Config", "src\1_Test_FFmpeg_Config\1_Test_FFmpeg_Config.vcxproj", "{4066EE07-5214-48CC-B4A0-FC9F5A231C24}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_Test_Demux", "src\2_Test_Demux\2_Test_Demux.vcxproj", "{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{4066EE07-5214-48CC-B4A0-FC9F5A231C24}.Release|x64.Build.0 = Release|x64
 		{4066EE07-5214-48CC-B4A0-FC9F5A231C24}.Release|x86.ActiveCfg = Release|Win32
 		{4066EE07-5214-48CC-B4A0-FC9F5A231C24}.Release|x86.Build.0 = Release|Win32
+		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Debug|x64.ActiveCfg = Debug|x64
+		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Debug|x64.Build.0 = Debug|x64
+		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Debug|x86.ActiveCfg = Debug|Win32
+		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Debug|x86.Build.0 = Debug|Win32
+		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Release|x64.ActiveCfg = Release|x64
+		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Release|x64.Build.0 = Release|x64
+		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Release|x86.ActiveCfg = Release|Win32
+		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
