@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Test_FFmpeg_Config", "src
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_Test_Demux", "src\2_Test_Demux\2_Test_Demux.vcxproj", "{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_Test_AVPacket_AVFrame", "src\3_Test_AVPacket_AVFrame\3_Test_AVPacket_AVFrame.vcxproj", "{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Release|x64.Build.0 = Release|x64
 		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Release|x86.ActiveCfg = Release|Win32
 		{5AF00C24-BA9A-4F1E-8399-1E5932D3F67F}.Release|x86.Build.0 = Release|Win32
+		{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}.Debug|x64.ActiveCfg = Debug|x64
+		{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}.Debug|x64.Build.0 = Debug|x64
+		{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}.Debug|x86.ActiveCfg = Debug|Win32
+		{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}.Debug|x86.Build.0 = Debug|Win32
+		{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}.Release|x64.ActiveCfg = Release|x64
+		{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}.Release|x64.Build.0 = Release|x64
+		{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}.Release|x86.ActiveCfg = Release|Win32
+		{14CAB2F5-3965-43E3-A0E8-1A4E49DDC612}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,7 +18,7 @@ int main()
 	//初始化网络库（rtmp, rtsp, http流媒体格式）
 	avformat_network_init();
 
-	std::string url = "Titanic.ts";
+	std::string url = "..\\..\\Titanic.ts";
 	AVFormatContext *ptrFormatContext = nullptr;
 
 	int rc = avformat_open_input(&ptrFormatContext, url.c_str(), nullptr, nullptr);
